@@ -12,7 +12,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/externalApi/")
-@CrossOrigin("http://localhost:4200")
 public class BoutiqueResource {
 
     @Autowired
